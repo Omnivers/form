@@ -6,7 +6,9 @@
   pointer-events: none;
 }
 .titre{
-  margin:50px
+  margin:50px;
+  color: rgb(0, 0, 0,0.6);
+
 }
 .formulaire{
   display: flex;
@@ -14,8 +16,19 @@
   height: 100vh;
 }
 .theform{
-  border: 1px solid black;
   width: 80vh;
-  height: 60vh;
+  height: 70vh;
   padding: 50px;
+  border-radius: 11px;
+  background: #e0e0e0;
+  box-shadow:  33px -33px 67px #898989,
+              -33px 33px 67px #ffffff;
+}
+.submito{
+  margin: 30px;
+  padding: 10px;
+  font-size: 25px;
+}
+.checker{
+  margin-top: 26px;
 }
